@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initialscale=
-1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+1"><link rel="icon" type="image/icon" href="log33.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 <title>8trade</title>
 
 <style type="text/css">
@@ -14,109 +15,152 @@ html {
   width: 100%;
   margin: 0;
   background: rgb(26, 188, 156,);
-  background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-  background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 0.2) 0%, rgba(142, 68, 173, 0.2) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 0.2) 0%, rgba(142, 68, 173, 0.2) 100%);
+  background: linear-gradient(135deg, rgba(26, 188, 156, 0.2) 0%, rgba(142, 68, 173, 0.2) 100%);
 }
 .navbar{
-  background-color: #0B0B0B;
-
+  background-color:rgba(10, 10, 0, 0.5);
   position: fixed;
   width: 100%;
   z-index:1;
-  margin: 0%;
-  opacity: 0.9;
-}
+  }
 .log{
   float: left;
-  width: 15%;
+  width: 7%;
+  padding: 5px;
   height: auto;
-  margin-left: 2vw;
-  margin-top: 0.3vw;
-  margin-bottom: 0.3vw;
-}
-.cont{
-  padding-top: 20%;
+  margin-left: 2.5vw;
+  margin-top: 5px;
+  }
+.teleg{
+    color: white;
+    font-size: 35px; 
+    display: flex;
+    padding-right: 20px;
+ }
 
+  .teleg:active{
+color: white;
+  }
+      .links{
+      float: left;
+      margin-left: 50px;
+      position: relative;
+      color: white;
+      font-family: 'century gothic';
+      font-weight: lighter;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .links:active, .links:hover{
+    	text-decoration: underline;
+    }
+     .linktain{
+  margin-top: 20px;
+  margin-left: 170px;
 }
-  
-}
-.nav-link{
-  color: black;
-  margin: 0.8rem;}
-.nav-link:hover{
-  text-decoration: underline;
-  transform: scale(1.04);
+.iconz{
+border: 1px solid white;
+float: right;
+margin-right: 60px; 
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+  padding-right: 10px;
+ border-radius: 25px;
+ text-decoration: none;
+  }
+.iconz :after {
+  opacity: 0;
+  }
+
+.iconz:hover {
+  padding-right: 10px;
+  color: #red;
 }
 
-  
-h1{
+.iconz:hover :after {
+  opacity: 1;
+  content: ' Join now';
+  font-size: 25px;
+  font-weight: lighter;
+} 
+.bolder{
+  font-weight: bolder;
+  font-size: 44px;
+  color: white;
+  font-family: monospace;
+ }
+ .lighter{
+font-weight: lighter;
+    color: white;
+    font-size: 21px;
+    font-family: courier; }
+ .lighte{
+  font-family: candara;
+  font-size: 19px; 
+  text-decoration: none;
+  background-color: rgba(226,226,226,1);
   border-radius: 25px;
-  font-family: Century gothic;
-  font-size: 4vmin;
-  width: 70%;
-  margin-left: 10vw;
-  margin-bottom: 0;
-}
-h2{font-family: Century gothic;
-  font-size: 4vmin;
-  margin-left: 8vw;
-}
-span{
-  font-weight: bold;
-  color: #349;
-}
+  padding:5px;
+  color: #465BB6;   
+ }
+ .lighte:hover{
+  cursor: pointer;
+  text-decoration: underline;
+ }
 .img1{
-  margin-left: 8vw;
-  width: 70%;
+  width: 100%;
   height: auto;
 }
-
+  .centertext{
+    position: absolute;
+    border-radius: 25px;
+    width: 90%;
+    top: 190px;
+    text-align: center;
+     }
+  .topimage{
+    position: relative;
+  }
+h1{
+  font-family: Century gothic;
+  font-size: 30px;
+  width: 75%;
+  margin-left: 10vw;
+  }
+.hedd{
+  font-weight: bold;
+  color: #349;}
 p{
   font-family: Century gothic;
   width: 70%;
-  font-size: 4vmin;
-  margin-left: 8vw;
-}
-.lis{
-  width: 80%;
-  font-size: 4vmin;
-}
-
-.faq{
-  width: 70%;
-  margin-left: 5vw;
-  font-size: 2vw;
-}
+  font-size: 15px;
+  margin-left: 8vw;}
 .content{
   width: 15%;
 }
 
 .dropbtnn {
   width: 80%;
-  border: 2px solid  red;
   color: white;
   font-family:'century gothic';
-  padding: 2vw;
+  padding: 25px;
   text-align: center;
-  font-size: 14px;
-  border: none;
+  font-size: 16px;
   cursor: pointer;
+  background-color: rgba(40,30,172,0.4);
 }
-.dropbtnn:hover, .dropbtn:focus {
-  transition: all 1s;
+.dropbtnn:hover, .dropbtn:active {
+  transition: all 0.5s;
 transform: scale(1.1);
-border: none;
 } 
 .navbar__itemss {
   position: relative;
-  left: 5px;
   font-family:'century gothic';
-  font-size: 4vmin;
-  color: yellow;
-  padding: 12px 16px;
-  min-width: 160px;
-  overflow: auto;
+  color: black;
+  padding: 12px;
   width: 56%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -124,96 +168,255 @@ border: none;
   display: none;}
   .ll{  
     list-style-type: none;
-    font-size: 4vmin;
-
+  
   }
     .faqli{
     margin-left: 8vw;
+ }
+    .footiconz{
+        position: fixed;
+        bottom: 15px;
+        float: left;
+        margin-left: 25px;  
+        }
+    .tel, .ig{
+    	color: black;
+    	font-size: 32px;
+    }
+    .ig{
+      margin-left: 30px;
+     }
+ .footlog{
+  width: 32px;
+  height: auto;
+    }
+ .footerq{
+  background-color: rgba(180,180,241,0.9);
+  text-align: center;
+ }
+ hr{
+  margin-top: 40%;
+ }
+ .dtxt{
+  margin-bottom: none;
+  padding-bottom: 15px;
+  font-size: 12px;
+  font-weight: lighter;
+ }
+
+
+
+
+
+
+
+  @media (max-width: 700px){
+ .log{
+  width: 10%;
+  padding: 5px;
+  height: auto;
+  margin-left: 2.5vw;
+  margin-top: 3px;
   }
-  .teleg{
-    padding: 1vw;
-    float: right;
-    height: 100%;
-    margin-left: 10vw;
-    border:none;
+.teleg{
     color: white;
+    font-size: 12px; 
+    display: flex;
+ }
+  .teleg:active{
+color: white;
   }
-  .bi-telegram{
-  font-size: 5vmin;
-  color: white;
-  display: flex;
-  justify-content: left;
-  padding: 2vw;
+  .iconz{
+  border: 1px solid white;
+  float: right;
+  margin-right: 5px;
+  margin-top: 15px;
+  padding-right: 1px;
+ border-radius: 25px;
+ text-decoration: none;
+  }
+.iconz :after {
+  opacity: 0;
+  }
+.iconz:hover :after {
+  opacity: 1;
+  content: ' Join now';
+  font-size: 10px;
+  font-weight: lighter;
 }
- .bi-telegram:hover{
-transition: all 1s;
-transform: scale(1.1);
-border: none;
+    .links{
+      float: left;
+      margin-top: 0px;
+      margin-left: 15px;
+      font-size: 12px;
+      text-decoration: none;
+    }
+     .linktain{
+    margin-left: 1px;}
+.img1{
+  width: 100%;
+  height: auto;
 }
   .centertext{
     position: absolute;
-    top: 20px;
-    margin-left: 10vw;
-    font-size: 4vmin;
-    padding: 2vw;
-    background-color: grey;
-    border-radius: 3px;
-    font-family: 'century gothic';
+    margin-left: 8vw;
+    background-color: rgba(20,20,20,0.5);
+    width: 80%;
+    top: 50px;
+    padding: 5px;
+    text-align: center;
      }
+     .bolder{
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
+  font-family: monospace;
+ }
+ .lighter{
+font-weight: lighter;
+    color: white;
+    font-size: 9px;
+    font-family: courier; }
+ .lighte{
+  font-family: candara;
+  font-size: 7px; 
+  text-decoration: none;
+  background-color: rgba(226,226,226,1);
+  border-radius: 25px;
+  padding:3px;
+  color: #465BB6;   
+ }
+ .lighte:hover{
+  cursor: pointer;
+  text-decoration: underline;
+ }
   .topimage{
     position: relative;
   }
-  .buttndwn {
+h1{
+  font-family: Century gothic;
+  font-size: 16px;
+  width: 75%;
+  margin-left: 10vw;
+  }
+.hedd{
+  font-weight: bold;
+  color: #349;}
+p{
+  font-family: Century gothic;
+  width: 70%;
+  font-size: 8px;
+  margin-left: 8vw;}
+.content{
+  width: 15%;
+}
 
+.dropbtnn {
+  width: 80%;
+  color: white;
+  font-family:'century gothic';
+  padding: 10px;
+  text-align: center;
+  font-size: 8px;
+  cursor: pointer;
+  background-color: rgba(40,30,172,0.4);
+}
+.dropbtnn:hover, .dropbtn:active {
+  transition: all 0.5s;
+transform: scale(1.1);
+} 
+.navbar__itemss {
+  position: relative;
+  font-family:'century gothic';
+  color: black;
+  padding: 12px;
+  width: 56%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.hidden {  
+  display: none;}
+  .ll{  
+    list-style-type: none;
+  
+  }
+    .faqli{
+    margin-left: 8vw;
+ }
+    .footiconz{
+        position: fixed;
+        bottom: 15px;
+        float: left;
+        margin-left: 25px;  
+        }
+    .tel, .ig{
+      color: black;
+      font-size: 32px;
     }
-    h3{
-      float: right;
-      color: white;
-      margin-top: 10px;
-      padding-left:20px; 
+    .ig{
+      margin-left: 30px;
+     }
+ .footlog{
+  width: 32px;
+  height: auto;
     }
-    .ii{
-      color: #31A9EE;
-      padding: 0;
-      position: fixed;
-      bottom: 10px;  
-      left: 10px;  
-      width: 100%;  
-      border:none;   
-      border:none;
+ .footerq{
+  background-color: rgba(180,180,241,0.9);
+  text-align: center;
+ }
+ hr{
+  margin-top: 40%;
+ }
+ .dtxt{
+  margin-bottom: none;
+  padding-bottom: 15px;
+  font-size: 12px;
+  font-weight: lighter;
+ }
     }
-    .cont{
-
-    }
-   
 </style>
 </head>
 <body>
  <div class="navbar">
   <img src="log2.png" class="log">
-   <i class=" bi-telegram teleg"></i><h3>  F.A.Q</h3>
-<h3> About</h3>
+   <a class="iconz" href=""><i class="teleg bi-telegram "></i></a>
+   <div class="linktain"><h3>  <a href="" class="links">F.A.Q</a></h3>
+<h3><a href="" class="links">About</a> </h3></div>
 
  
    </div>
    <div class="cont">
-<h1><span>EASY at your convinience</span>  anywhere in the world</h1> <div class="topimage"><img class="img1" src="107.jpg" alt="trading"><div class="centertext">Better your trading with our signals</div>
+ <div class="topimage"><img class="img1" src="107.jpg" alt="trading"><div class="centertext">
+
+<div >
+
+	<span class="bolder">Cut blowing accounts and loses<br>
+	<span class="lighter">Let your account Live to trade another day</span>
+<br> <span class="lighte"><a class="lighte" href=""> get signals > </a></span> </div>
 </div>
-<h2>signals for: <span>Crypto, Stocks, Forex and Indicies</span> </h2>
-  <h1><span>About our signals</span> </h1><p class="fxcontent">
+<h1><span class="hedd">Get Signals EASILY </span> at your convinience anywhere in the world</h1>
+</div>
+  <h1><span class="hedd">About our signals</span> </h1><p class="fxcontent">
   All Our trading signals are always carefully created by 
     our team of market experts thats why we are able to interpret 
     movements of key assets time to time to spot the latest 
     opportunities in real time as they happens.
-  <p>We are regulated & licensed <br>
-    We give you real time transparency <br>
+  <p>We give you real time transparency <br>
     Our signals have been tried by various individuals and institutions <br><br>
-<h1><span>FAQ</span></h1><div class="faqli"><li class="nav-mennu ll">
- 
+<h1><span class="hedd">FAQ</span></h1><div class="faqli"><li class="nav-mennu ll"> 
   <div class="dropdownn dropbtnn">How much do I need to start trading with 8trade?</div><ul class="navbar__itemss hidden ll"><li href="#">It depends which account type you use. Micro/Mini account can start with a minimum deposit of only $10 this may differ Across different platforms. Learn more about account types here.</li></ul></li><li class="nav-mennu ll"><div class="dropdownn dropbtnn">Is forex Trading 100% safe?</div><ul class="navbar__itemss hidden ll"><li href="#">All trading comes with risk and Forex trading is no different. That's why we take time to get more familiar <br> with the changes in markets, research and always instruct and assist practice good risk management so you benefit fully from our signals.<br> We teach a bunch of tools to help you get to grips with that in our telegram.</li></ul></li><li class="nav-mennu ll"><div class="dropdownn dropbtnn">What is leverage & how does it work?</div><ul class="navbar__itemss hidden ll"><li href="#">Leverage is similar to a loan, meaning that you'll borrow a set amount of money so that you can buy more of an asset and earn a bigger profit on any successful trades. Leverage can increase your losses as well as your profits, so we emphasize using it wisely</li></ul></li><li class="nav-mennu ll"><li class="nav-mennu ll"><div class="dropdownn dropbtnn">What are indices?</div><ul class="navbar__itemss hidden ll"><li href="#">Indices, also known as indexes, are portfolios of stocks. These stocks are grouped together depending on their unique characteristics. For example, the German stock market index, known as the DAX 30, consists of 30 biggest German companies trading on the Frankfurt Stock Exchange.</li></ul></li></ul></div></div>
 </div>
-<a href="">
-<i class="bi-telegram ii"></i></a>
+
+
+<div class="footerq">
+<hr> <img src="log33.png" class="footlog"> <br> 
+<div class="dtxt">
+&#169; 2022 EIGHTRADE, All rights reserved
+</div>
+<div class="footiconz">
+<a href=""><i class="bi-telegram tel"></i></a>
+<a href=""><i class="bi-instagram ig"></i></a>
+</div>
+</div>
 
 <script>
   const navItems = document.querySelectorAll('.navbar__itemss')
